@@ -1,0 +1,13 @@
+[package]
+name = "ts_parser"
+version = "0.1.0"
+authors = ["Thomas Reggi <thomas@reggi.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+swc_common = "0.32.1"
+swc_ecma_parser = "=0.140.0"
+swc_ecma_ast = "0.109.1"
+tokio = { version = "1", features = ["full"] }
